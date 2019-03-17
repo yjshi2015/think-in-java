@@ -12,10 +12,11 @@
     ">
 
 	<bean id="greetingAdvice" class="com.syj.demo.spring.alliance.GreetingBeforeAdvice"/>
+	<bean id="greetingAfter" class="com.syj.demo.spring.alliance.GreetingAfterAdvice"/>
 	<bean id="target" class="com.syj.demo.spring.alliance.NavieWaiter"/>
 	<bean id="waiter" class="org.springframework.aop.framework.ProxyFactoryBean"
 		p:proxyInterfaces="com.syj.demo.spring.alliance.Waiter"
-		p:interceptorNames="greetingAdvice"
+		p:interceptorNames="greetingAdvice,greetingAfter"
 		p:target-ref="target"
 	/>
 
