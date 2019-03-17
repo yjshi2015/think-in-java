@@ -1,4 +1,4 @@
-package main.com.syj.demo.spring.common;
+package com.syj.demo.spring.common;
 
 import lombok.Data;
 

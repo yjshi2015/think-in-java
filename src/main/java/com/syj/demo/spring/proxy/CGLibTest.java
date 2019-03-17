@@ -1,4 +1,4 @@
-package main.com.syj.demo.spring.proxy;
+package com.syj.demo.spring.proxy;
 
 /**
  * Created by Administrator on 2019/3/17.

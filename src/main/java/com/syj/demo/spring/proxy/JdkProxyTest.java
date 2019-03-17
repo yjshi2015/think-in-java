@@ -1,6 +1,6 @@
-package main.com.syj.demo.spring.proxy;
+package com.syj.demo.spring.proxy;
 
-import main.com.syj.demo.spring.aspect.ForumService;
+import com.syj.demo.spring.aspect.ForumService;
 
 import java.lang.reflect.Proxy;
 

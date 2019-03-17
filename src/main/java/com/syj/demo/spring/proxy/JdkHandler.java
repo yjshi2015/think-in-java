@@ -1,6 +1,6 @@
-package main.com.syj.demo.spring.proxy;
+package com.syj.demo.spring.proxy;
 
-import main.com.syj.demo.spring.common.PerformanceMonitor;
+import com.syj.demo.spring.common.PerformanceMonitor;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

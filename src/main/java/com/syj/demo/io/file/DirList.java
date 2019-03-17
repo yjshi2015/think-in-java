@@ -1,4 +1,4 @@
-package main.com.syj.demo.io.file;
+package com.syj.demo.io.file;
 
 import java.io.File;
 import java.io.FilenameFilter;

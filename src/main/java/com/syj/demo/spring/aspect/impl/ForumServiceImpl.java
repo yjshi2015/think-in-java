@@ -1,7 +1,7 @@
-package main.com.syj.demo.spring.aspect.impl;
+package com.syj.demo.spring.aspect.impl;
 
-import main.com.syj.demo.spring.aspect.ForumService;
-import main.com.syj.demo.spring.common.PerformanceMonitor;
+import com.syj.demo.spring.aspect.ForumService;
+import com.syj.demo.spring.common.PerformanceMonitor;
 
 /**
  * Created by Administrator on 2019/3/17.

@@ -1,4 +1,4 @@
-package main.com.syj.demo.spring.aspect;
+package com.syj.demo.spring.aspect;
 
 /**
  * Created by Administrator on 2019/3/17.

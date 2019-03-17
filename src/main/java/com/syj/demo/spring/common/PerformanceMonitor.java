@@ -1,4 +1,4 @@
-package main.com.syj.demo.spring.common;
+package com.syj.demo.spring.common;
 
 /**
  * Created by Administrator on 2019/3/17.
