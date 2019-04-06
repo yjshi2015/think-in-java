@@ -46,7 +46,7 @@ public class ThreadTest {
                 }
             }
             queue.add("1");
-            System.out.println("=======添加了1个元素===========");
+            System.out.println("=======添加了1个元素=====test======");
             notEmpty.notifyAll();
         }
 
