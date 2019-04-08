@@ -10,5 +10,5 @@ public class ActivityBaseInfo {
 
     private int id;
 
-    private String desc;
+    private String dsc;
 }
