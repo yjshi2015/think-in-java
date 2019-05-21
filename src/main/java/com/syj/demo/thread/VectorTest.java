@@ -35,7 +35,8 @@ public class VectorTest {
     public static class Demo {
 
         /**
-         * @desc 两个synchronized修饰的方法组合在一起并不能保证线程安全，假设2个线程同时进行了第一步contains的判断，通过后，都会执行
+         * @desc 两个synchronized修饰的方法组合在一起并不能保证线程安全，
+         * 假设2个线程同时进行了第一步contains的判断，通过后，都会执行
          * 第二步add的操作！！！
          * (contains方法虽然不是直接用synchronized修饰的，但是它调用的index0f方法是通过synchronized修饰的)
          * @param v
