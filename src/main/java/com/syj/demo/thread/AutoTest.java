@@ -1,5 +1,6 @@
 package com.syj.demo.thread;
 
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
@@ -32,6 +33,10 @@ public class AutoTest {
         //一定要等待所有线程执行完毕!!!
         Thread.sleep(5000);
         System.out.println("=======线程结束后的值:" + val.get());
+
+        LinkedBlockingQueue<Runnable> queue = new LinkedBlockingQueue<>();
+        queue.add(null);
+        queue.take();
     }
 
 }

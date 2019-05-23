@@ -7,3 +7,6 @@ Think-In-Java 重温经典
 皆可入队出队.Java并发包里**阻塞队列都用Blocking关键字标示,单队列使用Queue标识,双队列使用DeQue标示**
 
 - 实际工作中,一般不建议使用无界队列(即队列的大小无限制),因为数据量大了很容易造成OOM,只有ArrayBlockingQueue和LinkedBlockingQueue是支持有界的.
+
+## concurrent
+该包下的工具类是线程安全的,包括list/map/Queue/autoInteger等等
