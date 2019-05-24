@@ -1,4 +1,4 @@
-package com.syj.demo.thread;
+package com.syj.demo.thread.autoClass;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicLong;

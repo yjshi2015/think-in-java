@@ -1,4 +1,4 @@
-package com.syj.demo.thread;
+package com.syj.demo.thread.threadPool;
 
 import java.util.ArrayList;
 import java.util.List;
