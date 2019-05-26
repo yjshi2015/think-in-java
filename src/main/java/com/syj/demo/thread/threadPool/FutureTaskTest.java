@@ -1,9 +1,6 @@
 package com.syj.demo.thread.threadPool;
 
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.FutureTask;
+import java.util.concurrent.*;
 
 /**
  * FutureTask实现了Runnable接口和Future接口,有余实现了Runnable接口,所以可以将FutureTask对象作为任务提交给线程池,
@@ -24,5 +21,6 @@ public class FutureTaskTest {
         System.out.println(result);
 
         pool.shutdown();
+
     }
 }

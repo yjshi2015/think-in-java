@@ -1,6 +1,7 @@
 package com.syj.demo.thread.threadPool;
 
 import java.util.concurrent.Callable;
+import java.util.concurrent.TimeUnit;
 
 public class MyTask implements Callable<String> {
 
@@ -11,7 +12,7 @@ public class MyTask implements Callable<String> {
     }
 
     @Override
-    public String call() {
+    public String call() throws InterruptedException {
         String result = null;
         if (id == 0) {
             result = getPriceByS1();
@@ -24,14 +25,17 @@ public class MyTask implements Callable<String> {
         return result;
     }
 
-    String getPriceByS1() {
-        int temp = 1/0;
+    String getPriceByS1() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(3);
+//        int temp = 1/0;
         return "R1";
     }
-    String getPriceByS2() {
+    String getPriceByS2() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(2);
         return "R2";
     }
-    String getPriceByS3() {
+    String getPriceByS3() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(1);
         return "R3";
     }
 
