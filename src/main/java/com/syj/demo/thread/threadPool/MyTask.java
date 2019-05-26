@@ -12,17 +12,20 @@ public class MyTask implements Callable<String> {
 
     @Override
     public String call() {
+        String result = null;
         if (id == 0) {
-            return getPriceByS1();
+            result = getPriceByS1();
         } else if (id == 1) {
-            return getPriceByS2();
+            result = getPriceByS2();
         } else if (id == 2) {
-            return getPriceByS3();
+            result = getPriceByS3();
         }
-        return null;
+        System.out.println("===========result:" + result);
+        return result;
     }
 
     String getPriceByS1() {
+        int temp = 1/0;
         return "R1";
     }
     String getPriceByS2() {

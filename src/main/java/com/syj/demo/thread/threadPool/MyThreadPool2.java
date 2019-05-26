@@ -21,7 +21,12 @@ public class MyThreadPool2 {
 
         Thread.sleep(2000);
         for (Future<String> item : result) {
-            System.out.println(item.get());
+            try {
+                System.out.println(item.get());
+            } catch (Exception e) {
+                e.printStackTrace();
+                System.out.println("=========捕获到异常" + e);
+            }
         }
         pool.shutdown();
     }
