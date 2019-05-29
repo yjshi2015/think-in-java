@@ -9,4 +9,7 @@ Think-In-Java 重温经典
 - 实际工作中,一般不建议使用无界队列(即队列的大小无限制),因为数据量大了很容易造成OOM,只有ArrayBlockingQueue和LinkedBlockingQueue是支持有界的.
 
 ## concurrent
-该包下的工具类是线程安全的,包括list/map/Queue/autoInteger等等
+- 该包下的工具类是线程安全的,包括list/map/Queue/autoInteger等等
+- 对于简单的并行任务,可以通过"线程池+Future"的方案来解决
+- 对于任务之间有聚合关系,不管是AND聚合,还是OR聚合,都可以通过"CompletableFuture"来解决
+- 对于批量的并行任务,则可以通过"CompletionService"来解决
