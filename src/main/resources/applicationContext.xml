@@ -10,7 +10,7 @@
     	http://www.springframework.org/schema/aop
     	http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
     ">
-
+	<context:component-scan base-package="com.syj" />
 	<bean id="greetingAdvice" class="com.syj.demo.spring.alliance.GreetingBeforeAdvice"/>
 	<bean id="greetingAfter" class="com.syj.demo.spring.alliance.GreetingAfterAdvice"/>
 	<bean id="target" class="com.syj.demo.spring.alliance.NavieWaiter"/>
