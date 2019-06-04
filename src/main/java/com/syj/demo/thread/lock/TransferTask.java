@@ -11,4 +11,10 @@ public class TransferTask implements Runnable {
     }
 
 
+    @Override
+    public void run() {
+        String word = "ljlkjkljlk";
+        word.replace("lj", "ab");
+        Long.valueOf("10");
+    }
 }
