@@ -1,4 +1,4 @@
-package com.syj.demo.thread.blaking;
+package com.syj.demo.thread.balking;
 
 import java.util.Set;
 import java.util.concurrent.*;
