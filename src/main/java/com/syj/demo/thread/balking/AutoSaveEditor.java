@@ -6,7 +6,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *
- * Guarded Suspension模式:多线程版本的if,每个线程都需要满足一定的条件,即if,后才能执行,并且必须"等待直到条件为真"
+ * Guarded Suspension模式:多线程版本的if,每个线程都需要满足一定的条件,即if,后才能执行,并且必须
+ * "等待直到条件为真"
  * Balking模式:多线程版本的if,每个线程都需要满足一定的条件,不过它是快速放弃的,线程并不需要那么执着
  *
  * 该例子为synchronized的Blaking模式

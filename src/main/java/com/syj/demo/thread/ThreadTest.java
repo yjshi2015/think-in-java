@@ -14,6 +14,8 @@ public class ThreadTest {
 
     public static void main(String[] args) {
 
+        long pre = System.nanoTime()/1000_1000;
+
         while (true) {
             synchronized (ThreadTest.class) {
                 try {
@@ -23,6 +25,7 @@ public class ThreadTest {
                 }
             }
         }
+
 
     }
 
