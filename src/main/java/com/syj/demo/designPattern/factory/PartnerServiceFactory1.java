@@ -1,4 +1,4 @@
-package com.syj.demo.designPattern;
+package com.syj.demo.designPattern.factory;
 
 /**
  * Created by Administrator on 2019/5/31.

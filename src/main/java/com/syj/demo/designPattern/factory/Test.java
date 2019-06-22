@@ -1,4 +1,4 @@
-package com.syj.demo.designPattern;
+package com.syj.demo.designPattern.factory;
 
 /**
  * Created by Administrator on 2019/5/31.
@@ -14,8 +14,8 @@ public class Test {
         System.out.println(assian.rollbackPoint("syj", "123"));
 
         PartnerServiceFactory1 factory1 = new PartnerServiceFactory1();
-        PartnerService ponta1 = factory1.create("com.syj.demo.designPattern.PontaService");
-        PartnerService assian1 = factory1.create("com.syj.demo.designPattern.AssianAirService");
+        PartnerService ponta1 = factory1.create("com.syj.demo.designPattern.factory.PontaService");
+        PartnerService assian1 = factory1.create("com.syj.demo.designPattern.factory.AssianAirService");
 
         System.out.println(ponta1.addPoint("syj", "456"));
         System.out.println(assian1.addPoint("syj", "456"));

@@ -1,9 +1,7 @@
-package com.syj.demo.designPattern;
+package com.syj.demo.designPattern.factory;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.stereotype.Service;
 
 /**
  * Created by Administrator on 2019/5/31.
