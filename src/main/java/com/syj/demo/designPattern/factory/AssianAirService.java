@@ -1,4 +1,4 @@
-package com.syj.demo.designPattern;
+package com.syj.demo.designPattern.factory;
 
 import org.springframework.stereotype.Service;
 
