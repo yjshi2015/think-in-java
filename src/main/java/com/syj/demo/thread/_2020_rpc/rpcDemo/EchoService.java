@@ -7,4 +7,6 @@ package com.syj.demo.thread._2020_rpc.rpcDemo;
 public interface EchoService {
 
     String echo(String ping);
+
+    String syjMethod(String name);
 }

@@ -19,5 +19,6 @@ public class RunTest {
         RpcConsumer<EchoService> consumer = new RpcConsumer<>();
         EchoService proxyService = consumer.importer(EchoServiceImpl.class, new InetSocketAddress("localhost", 8080));
         System.out.println("result : " + proxyService.echo("Are You Ok ?"));
+        System.out.println("result : " + proxyService.syjMethod("SYJ"));
     }
 }
